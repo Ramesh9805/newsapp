@@ -42,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 TextFormField(
                   controller: emailController,
                   validator: (value) {
-                    // ignore: avoid_print
+                  
                     print(value);
                     if (value!.isEmpty) {
                       return 'Enter cant be empty Email';
@@ -130,7 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ));
                     }
                   },
-                  // ignore: sort_child_properties_last
+                  
                   child: Text(
                     'Sign In',
                     style: TextStyle(
